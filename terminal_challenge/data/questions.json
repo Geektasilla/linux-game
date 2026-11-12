@@ -1,0 +1,1954 @@
+{
+  "easy": [
+    {
+      "id": "e01",
+      "prompt": {
+        "ru": "Выведи список файлов в текущей директории",
+        "en": "List the files in the current directory"
+      },
+      "answers": [
+        "ls",
+        "ls -l",
+        "ls -a",
+        "ls -la",
+        "ls -lh"
+      ]
+    },
+    {
+      "id": "e02",
+      "prompt": {
+        "ru": "Узнай полный путь до текущего рабочего каталога",
+        "en": "Print the full path of the current working directory"
+      },
+      "answers": [
+        "pwd"
+      ]
+    },
+    {
+      "id": "e03",
+      "prompt": {
+        "ru": "Перейди в другую директорию",
+        "en": "Change to another directory"
+      },
+      "answers": [
+        "cd",
+        "cd ..",
+        "cd ~",
+        "cd /home",
+        "cd ../"
+      ]
+    },
+    {
+      "id": "e04",
+      "prompt": {
+        "ru": "Создай новую пустую папку",
+        "en": "Create a new empty directory"
+      },
+      "answers": [
+        "mkdir",
+        "mkdir -p",
+        "mkdir my_dir"
+      ]
+    },
+    {
+      "id": "e05",
+      "prompt": {
+        "ru": "Удали директорию (только если она пустая)",
+        "en": "Remove a directory (only if it is empty)"
+      },
+      "answers": [
+        "rmdir",
+        "rmdir my_dir"
+      ]
+    },
+    {
+      "id": "e06",
+      "prompt": {
+        "ru": "Создай новый пустой файл или обнови время доступа",
+        "en": "Create a new empty file or update its access time"
+      },
+      "answers": [
+        "touch",
+        "touch file.txt"
+      ]
+    },
+    {
+      "id": "e07",
+      "prompt": {
+        "ru": "Сделай копию файла или целой папки",
+        "en": "Copy a file or a whole directory"
+      },
+      "answers": [
+        "cp",
+        "cp -r",
+        "cp file.txt file.bak"
+      ]
+    },
+    {
+      "id": "e08",
+      "prompt": {
+        "ru": "Перемести файл или переименуй его",
+        "en": "Move a file or rename it"
+      },
+      "answers": [
+        "mv",
+        "mv old_name new_name"
+      ]
+    },
+    {
+      "id": "e09",
+      "prompt": {
+        "ru": "Удали файл или директорию рекурсивно",
+        "en": "Delete a file or a directory recursively"
+      },
+      "answers": [
+        "rm",
+        "rm -r",
+        "rm -f",
+        "rm -rf",
+        "rm file.txt"
+      ]
+    },
+    {
+      "id": "e10",
+      "prompt": {
+        "ru": "Выведи всё содержимое текстового файла в терминал",
+        "en": "Print the whole content of a text file to the terminal"
+      },
+      "answers": [
+        "cat",
+        "cat file.txt"
+      ]
+    },
+    {
+      "id": "e11",
+      "prompt": {
+        "ru": "Посмотри только первые 10 строк файла",
+        "en": "Show only the first 10 lines of a file"
+      },
+      "answers": [
+        "head",
+        "head -n 10",
+        "head -n 5 file.txt"
+      ]
+    },
+    {
+      "id": "e12",
+      "prompt": {
+        "ru": "Выведи последние строки лог-файла",
+        "en": "Show the last lines of a log file"
+      },
+      "answers": [
+        "tail",
+        "tail -n 10",
+        "tail -f",
+        "tail -n 5 file.log"
+      ]
+    },
+    {
+      "id": "e13",
+      "prompt": {
+        "ru": "Открой файл для постраничного просмотра с возможностью прокрутки",
+        "en": "Open a file for page-by-page viewing with scrolling"
+      },
+      "answers": [
+        "less",
+        "more",
+        "less file.txt"
+      ]
+    },
+    {
+      "id": "e14",
+      "prompt": {
+        "ru": "Выведи текст из файла, пронумеровав каждую строку",
+        "en": "Print a file with every line numbered"
+      },
+      "answers": [
+        "nl",
+        "nl file.txt"
+      ]
+    },
+    {
+      "id": "e15",
+      "prompt": {
+        "ru": "Посчитай количество строк, слов и байт в файле",
+        "en": "Count the lines, words and bytes in a file"
+      },
+      "answers": [
+        "wc",
+        "wc -l",
+        "wc -w",
+        "wc -c",
+        "wc file.txt"
+      ]
+    },
+    {
+      "id": "e16",
+      "prompt": {
+        "ru": "Найди специфическую строку в тексте по шаблону",
+        "en": "Find a specific line in a text by a pattern"
+      },
+      "answers": [
+        "grep",
+        "grep -i",
+        "grep -r",
+        "grep 'pattern' file.txt"
+      ]
+    },
+    {
+      "id": "e17",
+      "prompt": {
+        "ru": "Удали идущие подряд дубликаты строк",
+        "en": "Remove consecutive duplicate lines"
+      },
+      "answers": [
+        "uniq",
+        "uniq file.txt"
+      ]
+    },
+    {
+      "id": "e18",
+      "prompt": {
+        "ru": "Замени одни символы на другие в потоке текста",
+        "en": "Replace some characters with others in a text stream"
+      },
+      "answers": [
+        "tr 'a-z' 'A-Z'"
+      ]
+    },
+    {
+      "id": "e19",
+      "prompt": {
+        "ru": "Отсортируй строки в текстовом файле по алфавиту",
+        "en": "Sort the lines of a text file alphabetically"
+      },
+      "answers": [
+        "sort",
+        "sort file.txt",
+        "sort -r"
+      ]
+    },
+    {
+      "id": "e20",
+      "prompt": {
+        "ru": "Найди файл в дереве каталогов по его имени",
+        "en": "Find a file in the directory tree by its name"
+      },
+      "answers": [
+        "find . -name 'filename'"
+      ]
+    },
+    {
+      "id": "e21",
+      "prompt": {
+        "ru": "Быстрый поиск файла по системной базе данных индексации",
+        "en": "Quickly find a file using the system's index database"
+      },
+      "answers": [
+        "locate",
+        "locate filename"
+      ]
+    },
+    {
+      "id": "e22",
+      "prompt": {
+        "ru": "Узнай, где именно лежит исполняемый файл команды",
+        "en": "Find out where the executable of a command is located"
+      },
+      "answers": [
+        "which",
+        "which ls"
+      ]
+    },
+    {
+      "id": "e23",
+      "prompt": {
+        "ru": "Найди местоположение бинарников, исходников и мануалов команды",
+        "en": "Find the location of a command's binary, sources and manual pages"
+      },
+      "answers": [
+        "whereis",
+        "whereis ls"
+      ]
+    },
+    {
+      "id": "e24",
+      "prompt": {
+        "ru": "Открой встроенную справку (руководство) по конкретной утилите",
+        "en": "Open the built-in manual for a specific utility"
+      },
+      "answers": [
+        "man",
+        "man ls"
+      ]
+    },
+    {
+      "id": "e25",
+      "prompt": {
+        "ru": "Посмотри список последних выполненных тобой команд",
+        "en": "Show the list of commands you ran recently"
+      },
+      "answers": [
+        "history"
+      ]
+    },
+    {
+      "id": "e26",
+      "prompt": {
+        "ru": "Узнай логин текущего пользователя в системе",
+        "en": "Print the login name of the current user"
+      },
+      "answers": [
+        "whoami"
+      ]
+    },
+    {
+      "id": "e27",
+      "prompt": {
+        "ru": "Выведи числовые идентификаторы (UID/GID) текущего юзера",
+        "en": "Print the numeric IDs (UID/GID) of the current user"
+      },
+      "answers": [
+        "id",
+        "id -u",
+        "id -g"
+      ]
+    },
+    {
+      "id": "e28",
+      "prompt": {
+        "ru": "Посмотри список всех пользователей, вошедших в систему",
+        "en": "List all users currently logged in"
+      },
+      "answers": [
+        "users",
+        "who"
+      ]
+    },
+    {
+      "id": "e29",
+      "prompt": {
+        "ru": "Выведи информацию о ядре и архитектуре ОС",
+        "en": "Print information about the kernel and the OS architecture"
+      },
+      "answers": [
+        "uname",
+        "uname -a",
+        "uname -r",
+        "uname -m"
+      ]
+    },
+    {
+      "id": "e30",
+      "prompt": {
+        "ru": "Узнай, сколько времени система работает без перезагрузки",
+        "en": "Find out how long the system has been running since the last reboot"
+      },
+      "answers": [
+        "uptime"
+      ]
+    },
+    {
+      "id": "e31",
+      "prompt": {
+        "ru": "Выведи сетевое имя данного хоста",
+        "en": "Print the network name of this host"
+      },
+      "answers": [
+        "hostname"
+      ]
+    },
+    {
+      "id": "e32",
+      "prompt": {
+        "ru": "Посмотри текущую системную дату и точное время",
+        "en": "Show the current system date and exact time"
+      },
+      "answers": [
+        "date",
+        "date +%T"
+      ]
+    },
+    {
+      "id": "e33",
+      "prompt": {
+        "ru": "Выведи календарь на текущий месяц",
+        "en": "Show a calendar for the current month"
+      },
+      "answers": [
+        "cal"
+      ]
+    },
+    {
+      "id": "e34",
+      "prompt": {
+        "ru": "Очисти окно терминала от накопившегося текста",
+        "en": "Clear the terminal window"
+      },
+      "answers": [
+        "clear",
+        "Ctrl+L"
+      ]
+    },
+    {
+      "id": "e35",
+      "prompt": {
+        "ru": "Посмотри все активные переменные окружения",
+        "en": "Show all active environment variables"
+      },
+      "answers": [
+        "env",
+        "printenv"
+      ]
+    },
+    {
+      "id": "e36",
+      "prompt": {
+        "ru": "Выведи строку текста или значение переменной в консоль",
+        "en": "Print a line of text or the value of a variable to the console"
+      },
+      "answers": [
+        "echo",
+        "echo 'Hello'",
+        "echo $PATH"
+      ]
+    },
+    {
+      "id": "e37",
+      "prompt": {
+        "ru": "Запиши вывод команды в файл и одновременно выведи на экран",
+        "en": "Write the output of a command to a file and show it on the screen at the same time"
+      },
+      "answers": [
+        "tee",
+        "ls | tee file.txt"
+      ]
+    },
+    {
+      "id": "e38",
+      "prompt": {
+        "ru": "Архивация файлов (упаковка без сжатия или распаковка архивов)",
+        "en": "Archive files (pack without compression or unpack archives)"
+      },
+      "answers": [
+        "tar",
+        "tar -c",
+        "tar -x",
+        "tar -t",
+        "tar -cvf archive.tar ."
+      ]
+    },
+    {
+      "id": "e39",
+      "prompt": {
+        "ru": "Сожми файл, используя алгоритм gzip",
+        "en": "Compress a file with the gzip algorithm"
+      },
+      "answers": [
+        "gzip",
+        "gzip file.txt"
+      ]
+    },
+    {
+      "id": "e40",
+      "prompt": {
+        "ru": "Распакуй файл с расширением .gz",
+        "en": "Decompress a file with the .gz extension"
+      },
+      "answers": [
+        "gunzip",
+        "gunzip file.txt.gz"
+      ]
+    },
+    {
+      "id": "e41",
+      "prompt": {
+        "ru": "Создай архив в формате .zip",
+        "en": "Create a .zip archive"
+      },
+      "answers": [
+        "zip",
+        "zip archive.zip file1 file2"
+      ]
+    },
+    {
+      "id": "e42",
+      "prompt": {
+        "ru": "Извлеки файлы из .zip архива",
+        "en": "Extract files from a .zip archive"
+      },
+      "answers": [
+        "unzip",
+        "unzip archive.zip"
+      ]
+    },
+    {
+      "id": "e43",
+      "prompt": {
+        "ru": "Измени права доступа (rwx) к файлу или папке",
+        "en": "Change the access permissions (rwx) of a file or directory"
+      },
+      "answers": [
+        "chmod",
+        "chmod 755 file.sh",
+        "chmod +x script.py"
+      ]
+    },
+    {
+      "id": "e44",
+      "prompt": {
+        "ru": "Смени владельца файла (нужны права root)",
+        "en": "Change the owner of a file (requires root)"
+      },
+      "answers": [
+        "chown",
+        "chown user:group file.txt"
+      ]
+    },
+    {
+      "id": "e45",
+      "prompt": {
+        "ru": "Измени группу-владельца для объекта",
+        "en": "Change the owning group of a file"
+      },
+      "answers": [
+        "chgrp",
+        "chgrp groupname file.txt"
+      ]
+    },
+    {
+      "id": "e46",
+      "prompt": {
+        "ru": "Создай символическую или жесткую ссылку на файл",
+        "en": "Create a symbolic or hard link to a file"
+      },
+      "answers": [
+        "ln",
+        "ln -s",
+        "ln -s /path/to/original /path/to/link"
+      ]
+    },
+    {
+      "id": "e47",
+      "prompt": {
+        "ru": "Запусти консольный текстовый редактор (классика Unix)",
+        "en": "Start the classic Unix console text editor"
+      },
+      "answers": [
+        "vi",
+        "vim",
+        "nano"
+      ]
+    },
+    {
+      "id": "e48",
+      "prompt": {
+        "ru": "Выведи статический снимок списка запущенных процессов",
+        "en": "Show a static snapshot of the running processes"
+      },
+      "answers": [
+        "ps",
+        "ps aux",
+        "ps -ef"
+      ]
+    },
+    {
+      "id": "e49",
+      "prompt": {
+        "ru": "Запусти интерактивный мониторинг ресурсов и процессов в реальном времени",
+        "en": "Start interactive real-time monitoring of resources and processes"
+      },
+      "answers": [
+        "top",
+        "htop"
+      ]
+    },
+    {
+      "id": "e50",
+      "prompt": {
+        "ru": "Отправь сигнал завершения (или другой) конкретному процессу по PID",
+        "en": "Send a termination (or another) signal to a process by its PID"
+      },
+      "answers": [
+        "kill",
+        "kill -9",
+        "kill 12345"
+      ]
+    },
+    {
+      "id": "e51",
+      "prompt": {
+        "ru": "Убей все процессы одним махом",
+        "en": "Kill all processes with a given name in one go"
+      },
+      "answers": [
+        "killall",
+        "pkill",
+        "killall -9 firefox",
+        "pkill chrome"
+      ]
+    },
+    {
+      "id": "e52",
+      "prompt": {
+        "ru": "Посмотри статистику использования дискового пространства разделами",
+        "en": "Show disk space usage by partition"
+      },
+      "answers": [
+        "df",
+        "df -h",
+        "df -H"
+      ]
+    },
+    {
+      "id": "e53",
+      "prompt": {
+        "ru": "Оцени объем, который занимают конкретные файлы или папки",
+        "en": "Estimate how much space specific files or directories take up"
+      },
+      "answers": [
+        "du",
+        "du -h",
+        "du -sh"
+      ]
+    },
+    {
+      "id": "e54",
+      "prompt": {
+        "ru": "Проверь объем свободной и занятой оперативной памяти",
+        "en": "Check how much RAM is free and used"
+      },
+      "answers": [
+        "free",
+        "free -h",
+        "free -m",
+        "free -g"
+      ]
+    },
+    {
+      "id": "e55",
+      "prompt": {
+        "ru": "Отредактируй или посмотри список задач планировщика событий",
+        "en": "Edit or view the list of scheduled jobs"
+      },
+      "answers": [
+        "crontab",
+        "crontab -l",
+        "crontab -e"
+      ]
+    },
+    {
+      "id": "e56",
+      "prompt": {
+        "ru": "Выполни команду с привилегиями суперпользователя",
+        "en": "Run a command with superuser privileges"
+      },
+      "answers": [
+        "sudo",
+        "sudo apt update"
+      ]
+    },
+    {
+      "id": "e57",
+      "prompt": {
+        "ru": "Закрой текущую сессию оболочки и выйди из терминала",
+        "en": "Close the current shell session and leave the terminal"
+      },
+      "answers": [
+        "exit",
+        "logout"
+      ]
+    },
+    {
+      "id": "e58",
+      "prompt": {
+        "ru": "Приостанови выполнение скрипта или команды на N секунд",
+        "en": "Pause a script or command for N seconds"
+      },
+      "answers": [
+        "sleep",
+        "sleep 5"
+      ]
+    }
+  ],
+  "medium": [
+    {
+      "id": "m01",
+      "prompt": {
+        "ru": "Создать сжатый архив tar.gz из папки 'data' с подробным выводом (verbose).",
+        "en": "Create a compressed tar.gz archive of the 'data' directory with verbose output."
+      },
+      "answers": [
+        "tar -cvzf data.tar.gz data",
+        "tar -czvf data.tar.gz data"
+      ]
+    },
+    {
+      "id": "m02",
+      "prompt": {
+        "ru": "Распаковать архив 'backup.tar.gz' в конкретную папку /tmp/restore.",
+        "en": "Extract the archive 'backup.tar.gz' into the directory /tmp/restore."
+      },
+      "answers": [
+        "tar -xzf backup.tar.gz -C /tmp/restore",
+        "tar -xvf backup.tar.gz -C /tmp/restore"
+      ]
+    },
+    {
+      "id": "m03",
+      "prompt": {
+        "ru": "Посмотреть содержимое архива 'files.tar.gz' без его распаковки.",
+        "en": "List the contents of 'files.tar.gz' without extracting it."
+      },
+      "answers": [
+        "tar -tf files.tar.gz",
+        "tar -tvf files.tar.gz"
+      ]
+    },
+    {
+      "id": "m04",
+      "prompt": {
+        "ru": "Создать архив папки 'project', исключив из него подпапку 'node_modules'.",
+        "en": "Archive the 'project' directory, excluding its 'node_modules' subdirectory."
+      },
+      "answers": [
+        "tar --exclude='node_modules' -czf project.tar.gz project",
+        "tar -czf project.tar.gz --exclude='node_modules' project"
+      ]
+    },
+    {
+      "id": "m05",
+      "prompt": {
+        "ru": "Добавить новый файл 'extra.txt' в уже существующий (не сжатый) tar-архив.",
+        "en": "Add a new file 'extra.txt' to an existing (uncompressed) tar archive."
+      },
+      "answers": [
+        "tar -rf archive.tar extra.txt",
+        "tar -rvf archive.tar extra.txt"
+      ]
+    },
+    {
+      "id": "m06",
+      "prompt": {
+        "ru": "Распаковать только один конкретный файл 'config.json' из большого архива 'all.tar'.",
+        "en": "Extract only the file 'config.json' from the large archive 'all.tar'."
+      },
+      "answers": [
+        "tar -xf all.tar config.json",
+        "tar -xvf all.tar config.json"
+      ]
+    },
+    {
+      "id": "m07",
+      "prompt": {
+        "ru": "Создать простой архив 'site.tar' (без сжатия) из нескольких папок: 'html' и 'css'.",
+        "en": "Create a plain (uncompressed) archive 'site.tar' from the directories 'html' and 'css'."
+      },
+      "answers": [
+        "tar -cf site.tar html css",
+        "tar -cvf site.tar html css"
+      ]
+    },
+    {
+      "id": "m08",
+      "prompt": {
+        "ru": "Найти все файлы в /etc, которые заканчиваются на '.conf'.",
+        "en": "Find all files in /etc that end with '.conf'."
+      },
+      "answers": [
+        "find /etc -name '*.conf'",
+        "find /etc -type f -name '*.conf'"
+      ]
+    },
+    {
+      "id": "m09",
+      "prompt": {
+        "ru": "Найти в текущей папке файлы размером ровно 10 Мегабайт.",
+        "en": "Find files in the current directory that are exactly 10 megabytes in size."
+      },
+      "answers": [
+        "find . -size 10M"
+      ]
+    },
+    {
+      "id": "m10",
+      "prompt": {
+        "ru": "Найти в текущей папке файлы размером более 100 Мегабайт.",
+        "en": "Find files in the current directory larger than 100 megabytes."
+      },
+      "answers": [
+        "find . -size +100M"
+      ]
+    },
+    {
+      "id": "m11",
+      "prompt": {
+        "ru": "Найти все файлы, которые были изменены за последние 24 часа.",
+        "en": "Find all files modified within the last 24 hours."
+      },
+      "answers": [
+        "find . -mtime -1",
+        "find . -mtime 0"
+      ]
+    },
+    {
+      "id": "m12",
+      "prompt": {
+        "ru": "Найти строку 'error' в файле 'app.log', игнорируя регистр (Error, ERROR).",
+        "en": "Find the string 'error' in 'app.log', ignoring case (Error, ERROR)."
+      },
+      "answers": [
+        "grep -i 'error' app.log",
+        "grep -i \"error\" app.log"
+      ]
+    },
+    {
+      "id": "m13",
+      "prompt": {
+        "ru": "Вывести количество строк, в которых встречается слово 'FAIL' в файле 'results.txt'.",
+        "en": "Print the number of lines containing 'FAIL' in 'results.txt'."
+      },
+      "answers": [
+        "grep -c 'FAIL' results.txt",
+        "grep -c \"FAIL\" results.txt"
+      ]
+    },
+    {
+      "id": "m14",
+      "prompt": {
+        "ru": "Найти рекурсивно во всех файлах папки /var/log текст '192.168.1.1'.",
+        "en": "Search recursively for '192.168.1.1' in all files under /var/log."
+      },
+      "answers": [
+        "grep -r '192.168.1.1' /var/log",
+        "grep -R '192.168.1.1' /var/log"
+      ]
+    },
+    {
+      "id": "m15",
+      "prompt": {
+        "ru": "Вывести строки из файла, которые НЕ содержат слово 'DEBUG'.",
+        "en": "Print the lines of a file that do NOT contain 'DEBUG'."
+      },
+      "answers": [
+        "grep -v 'DEBUG' system.log",
+        "grep -v \"DEBUG\" system.log"
+      ]
+    },
+    {
+      "id": "m16",
+      "prompt": {
+        "ru": "Найти все пустые файлы в текущей директории.",
+        "en": "Find all empty files in the current directory."
+      },
+      "answers": [
+        "find . -type f -empty"
+      ]
+    },
+    {
+      "id": "m17",
+      "prompt": {
+        "ru": "Найти файл 'main.py' только в текущей директории, не заходя в подпапки.",
+        "en": "Find 'main.py' in the current directory only, without descending into subdirectories."
+      },
+      "answers": [
+        "find . -maxdepth 1 -name 'main.py'"
+      ]
+    },
+    {
+      "id": "m18",
+      "prompt": {
+        "ru": "Вывести 15-ю строку файла 'data.txt' (используя sed).",
+        "en": "Print line 15 of 'data.txt' (using sed)."
+      },
+      "answers": [
+        "sed -n '15p' data.txt"
+      ]
+    },
+    {
+      "id": "m19",
+      "prompt": {
+        "ru": "Заменить все вхождения 'http' на 'https' в файле (вывод в консоль).",
+        "en": "Replace every 'http' with 'https' in a file (output to the console)."
+      },
+      "answers": [
+        "sed 's/http/https/g' links.txt"
+      ]
+    },
+    {
+      "id": "m20",
+      "prompt": {
+        "ru": "Удалить все пустые строки в файле 'text.txt' через sed (вывод в консоль).",
+        "en": "Delete all empty lines in 'text.txt' with sed (output to the console)."
+      },
+      "answers": [
+        "sed '/^$/d' text.txt"
+      ]
+    },
+    {
+      "id": "m21",
+      "prompt": {
+        "ru": "Вывести только второй столбец из вывода команды 'df -h' (через awk).",
+        "en": "Print only the second column of the 'df -h' output (using awk)."
+      },
+      "answers": [
+        "df -h | awk '{print $2}'"
+      ]
+    },
+    {
+      "id": "m22",
+      "prompt": {
+        "ru": "Посчитать общее количество файлов в текущей директории (через ls и wc).",
+        "en": "Count the files in the current directory (using ls and wc)."
+      },
+      "answers": [
+        "ls | wc -l",
+        "ls -la | wc -l",
+        "ls -al | wc -l",
+        "ls -1 | wc -l"
+      ]
+    },
+    {
+      "id": "m23",
+      "prompt": {
+        "ru": "Вывести 5 самых больших файлов в папке (через du, sort и head).",
+        "en": "Show the 5 largest items in a directory (using du, sort and head)."
+      },
+      "answers": [
+        "du -sh * | sort -rh | head -n 5"
+      ]
+    },
+    {
+      "id": "m24",
+      "prompt": {
+        "ru": "Показать только уникальные строки из файла, предварительно отсортировав его.",
+        "en": "Show only the unique lines of a file after sorting it."
+      },
+      "answers": [
+        "sort file.txt | uniq",
+        "sort -u file.txt"
+      ]
+    },
+    {
+      "id": "m25",
+      "prompt": {
+        "ru": "Вырезать первые 5 символов из каждой строки файла 'keys.txt'.",
+        "en": "Cut the first 5 characters from every line of 'keys.txt'."
+      },
+      "answers": [
+        "cut -c 1-5 keys.txt"
+      ]
+    },
+    {
+      "id": "m26",
+      "prompt": {
+        "ru": "Объединить два файла 'part1.txt' и 'part2.txt' в один новый 'full.txt'.",
+        "en": "Merge 'part1.txt' and 'part2.txt' into a new file 'full.txt'."
+      },
+      "answers": [
+        "cat part1.txt part2.txt > full.txt"
+      ]
+    },
+    {
+      "id": "m27",
+      "prompt": {
+        "ru": "Установить права '644' (rw-r--r--) на файл 'config.yml'.",
+        "en": "Set permissions '644' (rw-r--r--) on 'config.yml'."
+      },
+      "answers": [
+        "chmod 644 config.yml",
+        "chmod u=rw,g=r,o=r config.yml"
+      ]
+    },
+    {
+      "id": "m28",
+      "prompt": {
+        "ru": "Сделать скрипт 'build.sh' исполняемым для всех пользователей.",
+        "en": "Make the script 'build.sh' executable for all users."
+      },
+      "answers": [
+        "chmod +x build.sh",
+        "chmod a+x build.sh",
+        "chmod 755 build.sh"
+      ]
+    },
+    {
+      "id": "m29",
+      "prompt": {
+        "ru": "Рекурсивно сменить владельца папки /var/www на пользователя 'www-data'.",
+        "en": "Recursively change the owner of /var/www to the user 'www-data'."
+      },
+      "answers": [
+        "chown -R www-data /var/www",
+        "chown -R www-data:www-data /var/www"
+      ]
+    },
+    {
+      "id": "m30",
+      "prompt": {
+        "ru": "Убрать у группы и остальных права на чтение файла 'private.key'.",
+        "en": "Remove read permission on 'private.key' for the group and others."
+      },
+      "answers": [
+        "chmod go-r private.key"
+      ]
+    },
+    {
+      "id": "m31",
+      "prompt": {
+        "ru": "Установить права '700' на папку '.ssh' (чтение/запись/доступ только владельцу).",
+        "en": "Set permissions '700' on the '.ssh' directory (access for the owner only)."
+      },
+      "answers": [
+        "chmod 700 .ssh",
+        "chmod u=rwx,go= .ssh"
+      ]
+    },
+    {
+      "id": "m32",
+      "prompt": {
+        "ru": "Сменить группу файла 'test.log' на 'developers'.",
+        "en": "Change the group of 'test.log' to 'developers'."
+      },
+      "answers": [
+        "chgrp developers test.log",
+        "chown :developers test.log"
+      ]
+    },
+    {
+      "id": "m33",
+      "prompt": {
+        "ru": "Найти PID процесса, который называется 'nginx'.",
+        "en": "Find the PID of the process named 'nginx'."
+      },
+      "answers": [
+        "pgrep nginx",
+        "pidof nginx"
+      ]
+    },
+    {
+      "id": "m34",
+      "prompt": {
+        "ru": "Показать дерево процессов.",
+        "en": "Show the process tree."
+      },
+      "answers": [
+        "pstree",
+        "ps axjf"
+      ]
+    },
+    {
+      "id": "m35",
+      "prompt": {
+        "ru": "Завершить процесс по его имени 'firefox' (сигналом по умолчанию).",
+        "en": "Terminate the process named 'firefox' (with the default signal)."
+      },
+      "answers": [
+        "pkill firefox",
+        "killall firefox"
+      ]
+    },
+    {
+      "id": "m36",
+      "prompt": {
+        "ru": "Посмотреть подробную информацию о процессе с конкретным PID 1234.",
+        "en": "Show detailed information about the process with PID 1234."
+      },
+      "answers": [
+        "ps -p 1234 -u",
+        "ps -fp 1234"
+      ]
+    },
+    {
+      "id": "m37",
+      "prompt": {
+        "ru": "Отправить сигнал принудительного завершения (SIGKILL) процессу с PID 987.",
+        "en": "Send the force-kill signal (SIGKILL) to the process with PID 987."
+      },
+      "answers": [
+        "kill -9 987",
+        "kill -SIGKILL 987"
+      ]
+    },
+    {
+      "id": "m38",
+      "prompt": {
+        "ru": "Посмотреть, сколько памяти потребляют процессы (статический список, сортировка по памяти).",
+        "en": "Show how much memory processes use (static list sorted by memory)."
+      },
+      "answers": [
+        "ps aux --sort=-%mem",
+        "ps -eo pid,ppid,cmd,%mem,%cpu --sort=-%mem"
+      ]
+    },
+    {
+      "id": "m39",
+      "prompt": {
+        "ru": "Проверить, открыт ли порт 80 на хосте 'localhost' (через nc).",
+        "en": "Check whether port 80 is open on 'localhost' (using nc)."
+      },
+      "answers": [
+        "nc -zv localhost 80",
+        "nmap -p 80 localhost"
+      ]
+    },
+    {
+      "id": "m40",
+      "prompt": {
+        "ru": "Показать все слушающие порты (TCP/UDP) с именами программ.",
+        "en": "Show all listening TCP ports together with program names."
+      },
+      "answers": [
+        "ss -lptn",
+        "netstat -lptn",
+        "lsof -i -P -n | grep LISTEN"
+      ]
+    },
+    {
+      "id": "m41",
+      "prompt": {
+        "ru": "Скачать файл из интернета и сохранить под конкретным именем 'setup.sh'.",
+        "en": "Download a file from the internet and save it as 'setup.sh'."
+      },
+      "answers": [
+        "curl -o setup.sh URL",
+        "wget -O setup.sh URL",
+        "curl -L URL -o setup.sh"
+      ]
+    },
+    {
+      "id": "m42",
+      "prompt": {
+        "ru": "Скопировать файл 'app.js' на удаленный сервер по пути /tmp/.",
+        "en": "Copy 'app.js' to a remote server into /tmp/."
+      },
+      "answers": [
+        "scp app.js user@host:/tmp/",
+        "rsync -avz app.js user@host:/tmp/"
+      ]
+    },
+    {
+      "id": "m43",
+      "prompt": {
+        "ru": "Подключиться к удаленному серверу host под пользователем user по SSH на порт 2222.",
+        "en": "Connect over SSH to the server 'host' as 'user' on port 2222."
+      },
+      "answers": [
+        "ssh -p 2222 user@host",
+        "ssh user@host -p 2222"
+      ]
+    },
+    {
+      "id": "m44",
+      "prompt": {
+        "ru": "Показать таблицу маршрутизации.",
+        "en": "Show the routing table."
+      },
+      "answers": [
+        "ip route",
+        "route -n",
+        "netstat -r"
+      ]
+    },
+    {
+      "id": "m45",
+      "prompt": {
+        "ru": "Cron: настроить запуск задачи каждые 15 минут.",
+        "en": "Cron: schedule a job every 15 minutes."
+      },
+      "answers": [
+        "*/15 * * * *"
+      ]
+    },
+    {
+      "id": "m46",
+      "prompt": {
+        "ru": "Cron: настроить запуск скрипта в 4:30 утра каждый день.",
+        "en": "Cron: run a script every day at 4:30 in the morning."
+      },
+      "answers": [
+        "30 4 * * *"
+      ]
+    },
+    {
+      "id": "m47",
+      "prompt": {
+        "ru": "Cron: запускать задачу только по субботам.",
+        "en": "Cron: run a job on Saturdays only."
+      },
+      "answers": [
+        "0 0 * * 6",
+        "0 0 * * sat"
+      ]
+    },
+    {
+      "id": "m48",
+      "prompt": {
+        "ru": "Cron: направить стандартный вывод (stdout) задачи в файл log.txt (перезапись).",
+        "en": "Cron: redirect the job's standard output (stdout) to log.txt (overwrite)."
+      },
+      "answers": [
+        "> log.txt",
+        "1> log.txt"
+      ]
+    },
+    {
+      "id": "m49",
+      "prompt": {
+        "ru": "Показать список всех дисков и их разделов.",
+        "en": "List all disks and their partitions."
+      },
+      "answers": [
+        "lsblk",
+        "fdisk -l"
+      ]
+    },
+    {
+      "id": "m50",
+      "prompt": {
+        "ru": "Показать размер каждой папки в текущей директории (сумма по папке).",
+        "en": "Show the size of each directory in the current directory (total per directory)."
+      },
+      "answers": [
+        "du -sh *"
+      ]
+    },
+    {
+      "id": "m51",
+      "prompt": {
+        "ru": "Показать информацию о версии операционной системы (из /etc/issue или os-release).",
+        "en": "Show the operating system version (from /etc/os-release)."
+      },
+      "answers": [
+        "cat /etc/os-release",
+        "cat /etc/issue",
+        "lsb_release -a"
+      ]
+    },
+    {
+      "id": "m52",
+      "prompt": {
+        "ru": "Показать последние 20 строк системного журнала ядра.",
+        "en": "Show the last 20 lines of the kernel log."
+      },
+      "answers": [
+        "dmesg | tail -n 20",
+        "dmesg | tail -20"
+      ]
+    },
+    {
+      "id": "m53",
+      "prompt": {
+        "ru": "Посмотреть текущие лимиты пользователя (открытые файлы и т.д.).",
+        "en": "Show the current user limits (open files etc.)."
+      },
+      "answers": [
+        "ulimit -a"
+      ]
+    },
+    {
+      "id": "m54",
+      "prompt": {
+        "ru": "Создать временный алиас 'll' для команды 'ls -la'.",
+        "en": "Create a temporary alias 'll' for 'ls -la'."
+      },
+      "answers": [
+        "alias ll='ls -la'"
+      ]
+    },
+    {
+      "id": "m55",
+      "prompt": {
+        "ru": "Вывести значение системной переменной PATH.",
+        "en": "Print the value of the PATH variable."
+      },
+      "answers": [
+        "echo $PATH"
+      ]
+    },
+    {
+      "id": "m56",
+      "prompt": {
+        "ru": "Дописать результат команды 'date' в конец существующего файла 'log.txt'.",
+        "en": "Append the output of 'date' to the end of the existing file 'log.txt'."
+      },
+      "answers": [
+        "date >> log.txt"
+      ]
+    },
+    {
+      "id": "m57",
+      "prompt": {
+        "ru": "Перенаправить только ошибки (stderr) в файл 'error.log'.",
+        "en": "Redirect only errors (stderr) to 'error.log'."
+      },
+      "answers": [
+        "command 2> error.log"
+      ]
+    },
+    {
+      "id": "m58",
+      "prompt": {
+        "ru": "Выполнить команду и подавить вывод ошибок (отправить в никуда).",
+        "en": "Run a command and discard its error output."
+      },
+      "answers": [
+        "command 2> /dev/null"
+      ]
+    },
+    {
+      "id": "m59",
+      "prompt": {
+        "ru": "Создать структуру папок project/src и project/bin одной командой.",
+        "en": "Create the directories project/src and project/bin with one command."
+      },
+      "answers": [
+        "mkdir -p project/src project/bin"
+      ]
+    },
+    {
+      "id": "m60",
+      "prompt": {
+        "ru": "Посмотреть, где находится бинарный файл команды 'grep'.",
+        "en": "Find out where the binary of the 'grep' command is located."
+      },
+      "answers": [
+        "which grep",
+        "type grep"
+      ]
+    }
+  ],
+  "hard": [
+    {
+      "id": "h01",
+      "prompt": {
+        "ru": "Cron: запуск /opt/script.sh каждый день в 02:00, stdout и stderr в /var/log/backup.log.",
+        "en": "Cron: run /opt/script.sh daily at 02:00, sending stdout and stderr to /var/log/backup.log."
+      },
+      "answers": [
+        "0 2 * * * /opt/script.sh >> /var/log/backup.log 2>&1",
+        "0 2 * * * /opt/script.sh &>> /var/log/backup.log"
+      ]
+    },
+    {
+      "id": "h02",
+      "prompt": {
+        "ru": "Выполни команду, только если предыдущая завершилась успешно (&&): проверь, что /data существует, и запусти backup-job.sh.",
+        "en": "Run a command only if the previous one succeeded (&&): check that /data exists, then run the backup job."
+      },
+      "answers": [
+        "[ -d /data ] && /usr/local/bin/backup-job.sh"
+      ]
+    },
+    {
+      "id": "h03",
+      "prompt": {
+        "ru": "Cron: запускать скрипт каждые 5 минут.",
+        "en": "Cron: run a script every 5 minutes."
+      },
+      "answers": [
+        "*/5 * * * * /path/to/script.sh",
+        "*/5 * * * * sh /path/to/script.sh"
+      ]
+    },
+    {
+      "id": "h04",
+      "prompt": {
+        "ru": "Cron: запускать скрипт по будням (Пн-Пт) в 09:00.",
+        "en": "Cron: run a script on weekdays (Mon-Fri) at 09:00."
+      },
+      "answers": [
+        "0 9 * * 1-5",
+        "0 9 * * MON-FRI"
+      ]
+    },
+    {
+      "id": "h05",
+      "prompt": {
+        "ru": "Cron: очищать файл /tmp/debug.log каждое воскресенье в полночь (перезапись пустым).",
+        "en": "Cron: empty /tmp/debug.log every Sunday at midnight (overwrite it with nothing)."
+      },
+      "answers": [
+        "0 0 * * 0 > /tmp/debug.log",
+        "0 0 * * 7 > /tmp/debug.log",
+        "0 0 * * SUN > /tmp/debug.log"
+      ]
+    },
+    {
+      "id": "h06",
+      "prompt": {
+        "ru": "Cron: запуск скрипта 1-го числа каждого месяца в 00:00.",
+        "en": "Cron: run a script on the 1st day of every month at 00:00."
+      },
+      "answers": [
+        "0 0 1 * * /path/to/monthly.sh"
+      ]
+    },
+    {
+      "id": "h07",
+      "prompt": {
+        "ru": "Cron: подавить вывод ошибок (stderr) в никуда (/dev/null).",
+        "en": "Cron: discard the error output (stderr) of a job (/dev/null)."
+      },
+      "answers": [
+        "* * * * * /path/to/command 2> /dev/null"
+      ]
+    },
+    {
+      "id": "h08",
+      "prompt": {
+        "ru": "Найти все файлы .log в /var/log и удалить их (используй -delete).",
+        "en": "Find all .log files in /var/log and delete them (use -delete)."
+      },
+      "answers": [
+        "find /var/log -name '*.log' -delete",
+        "find /var/log -name '*.log' -exec rm {} +"
+      ]
+    },
+    {
+      "id": "h09",
+      "prompt": {
+        "ru": "Найти файлы в /tmp старше 7 дней (mtime).",
+        "en": "Find files in /tmp older than 7 days (mtime)."
+      },
+      "answers": [
+        "find /tmp -type f -mtime +7",
+        "find /tmp -type f -mtime +6"
+      ]
+    },
+    {
+      "id": "h10",
+      "prompt": {
+        "ru": "Найти файлы больше 100 Мб в текущей директории.",
+        "en": "Find files larger than 100 MB in the current directory."
+      },
+      "answers": [
+        "find . -type f -size +100M"
+      ]
+    },
+    {
+      "id": "h11",
+      "prompt": {
+        "ru": "Найти все .sh файлы и сделать их исполняемыми (используй -exec).",
+        "en": "Find all .sh files and make them executable (use -exec)."
+      },
+      "answers": [
+        "find . -name '*.sh' -exec chmod +x {} +",
+        "find . -name '*.sh' -exec chmod +x {} \\;"
+      ]
+    },
+    {
+      "id": "h12",
+      "prompt": {
+        "ru": "Найти пустые директории и удалить их.",
+        "en": "Find empty directories and delete them."
+      },
+      "answers": [
+        "find . -type d -empty -delete",
+        "find . -type d -empty -exec rmdir {} +"
+      ]
+    },
+    {
+      "id": "h13",
+      "prompt": {
+        "ru": "Найти файлы, измененные менее 10 минут назад.",
+        "en": "Find files modified less than 10 minutes ago."
+      },
+      "answers": [
+        "find . -type f -mmin -10"
+      ]
+    },
+    {
+      "id": "h14",
+      "prompt": {
+        "ru": "Найти все файлы с правами 777.",
+        "en": "Find all files with permissions 777."
+      },
+      "answers": [
+        "find . -type f -perm 777",
+        "find . -type f -perm 0777"
+      ]
+    },
+    {
+      "id": "h15",
+      "prompt": {
+        "ru": "Посчитать количество непустых строк в файле file.txt (grep).",
+        "en": "Count the non-empty lines in file.txt (grep)."
+      },
+      "answers": [
+        "grep -cve '^$' file.txt",
+        "grep -v '^$' file.txt | wc -l"
+      ]
+    },
+    {
+      "id": "h16",
+      "prompt": {
+        "ru": "Найти рекурсивно строку 'password' во всех конфигах (.conf) в /etc.",
+        "en": "Search recursively for 'password' in all config files (.conf) in /etc."
+      },
+      "answers": [
+        "grep -r 'password' /etc/*.conf",
+        "grep -r 'password' /etc --include='*.conf'"
+      ]
+    },
+    {
+      "id": "h17",
+      "prompt": {
+        "ru": "Вывести только 2-й столбец из файла data.csv (разделитель запятая).",
+        "en": "Print only the 2nd column of data.csv (comma-separated)."
+      },
+      "answers": [
+        "awk -F, '{print $2}' data.csv",
+        "cut -d, -f2 data.csv"
+      ]
+    },
+    {
+      "id": "h18",
+      "prompt": {
+        "ru": "Заменить все вхождения 'http' на 'https' в файле site.conf (редактирование на месте -i).",
+        "en": "Replace every 'http' with 'https' in site.conf (edit in place with -i)."
+      },
+      "answers": [
+        "sed -i 's/http/https/g' site.conf",
+        "sed -i.bak 's/http/https/g' site.conf"
+      ]
+    },
+    {
+      "id": "h19",
+      "prompt": {
+        "ru": "Удалить 3-ю строку из файла list.txt (через sed).",
+        "en": "Delete the 3rd line of list.txt (using sed)."
+      },
+      "answers": [
+        "sed '3d' list.txt",
+        "sed -i '3d' list.txt"
+      ]
+    },
+    {
+      "id": "h20",
+      "prompt": {
+        "ru": "Вывести строки файла, длина которых больше 10 символов (awk).",
+        "en": "Print the lines of a file longer than 10 characters (awk)."
+      },
+      "answers": [
+        "awk 'length($0) > 10' file.txt"
+      ]
+    },
+    {
+      "id": "h21",
+      "prompt": {
+        "ru": "Посчитать количество уникальных IP-адресов в файле access.log (sort + uniq).",
+        "en": "Count the unique IP addresses in access.log (sort + uniq)."
+      },
+      "answers": [
+        "awk '{print $1}' access.log | sort | uniq | wc -l",
+        "cut -d' ' -f1 access.log | sort -u | wc -l"
+      ]
+    },
+    {
+      "id": "h22",
+      "prompt": {
+        "ru": "Показать 5 самых часто встречающихся строк (sort + uniq -c).",
+        "en": "Show the 5 most frequent lines of a file (sort + uniq -c)."
+      },
+      "answers": [
+        "sort file.txt | uniq -c | sort -nr | head -n 5"
+      ]
+    },
+    {
+      "id": "h23",
+      "prompt": {
+        "ru": "Вывести последнюю строку файла (tail или sed).",
+        "en": "Print the last line of a file (tail or sed)."
+      },
+      "answers": [
+        "tail -n 1 file.txt",
+        "sed -n '$p' file.txt"
+      ]
+    },
+    {
+      "id": "h24",
+      "prompt": {
+        "ru": "Создать архив backup.tar.gz из папки /data, исключив папку /data/cache.",
+        "en": "Create backup.tar.gz from /data, excluding /data/cache."
+      },
+      "answers": [
+        "tar -czf backup.tar.gz /data --exclude=/data/cache",
+        "tar -czf backup.tar.gz --exclude='cache' /data"
+      ]
+    },
+    {
+      "id": "h25",
+      "prompt": {
+        "ru": "Распаковать архив app.tar.gz в директорию /opt/app (создав её, если нужно).",
+        "en": "Extract app.tar.gz into /opt/app (creating the directory if needed)."
+      },
+      "answers": [
+        "mkdir -p /opt/app && tar -xzf app.tar.gz -C /opt/app"
+      ]
+    },
+    {
+      "id": "h26",
+      "prompt": {
+        "ru": "Просмотреть содержимое tar-архива без распаковки.",
+        "en": "List the contents of a tar archive without extracting it."
+      },
+      "answers": [
+        "tar -tf archive.tar.gz",
+        "tar -tvf archive.tar.gz"
+      ]
+    },
+    {
+      "id": "h27",
+      "prompt": {
+        "ru": "Добавить файл readme.txt в существующий архив data.tar (без сжатия).",
+        "en": "Add readme.txt to the existing archive data.tar (uncompressed)."
+      },
+      "answers": [
+        "tar -rf data.tar readme.txt",
+        "tar -rvf data.tar readme.txt"
+      ]
+    },
+    {
+      "id": "h28",
+      "prompt": {
+        "ru": "Извлечь только один файл config.xml из архива backup.tar.gz.",
+        "en": "Extract only config.xml from backup.tar.gz."
+      },
+      "answers": [
+        "tar -xzf backup.tar.gz config.xml",
+        "tar -xvf backup.tar.gz config.xml"
+      ]
+    },
+    {
+      "id": "h29",
+      "prompt": {
+        "ru": "Найти PID процесса 'nginx' (pgrep).",
+        "en": "Find the PID of the 'nginx' process (pgrep)."
+      },
+      "answers": [
+        "pgrep nginx",
+        "pidof nginx"
+      ]
+    },
+    {
+      "id": "h30",
+      "prompt": {
+        "ru": "Убить все процессы с именем 'php-fpm' (pkill или killall).",
+        "en": "Kill all processes named 'php-fpm' (pkill or killall)."
+      },
+      "answers": [
+        "pkill php-fpm",
+        "killall php-fpm"
+      ]
+    },
+    {
+      "id": "h31",
+      "prompt": {
+        "ru": "Показать процессы, потребляющие больше всего памяти (top/ps sort).",
+        "en": "Show the processes that use the most memory (top/ps sort)."
+      },
+      "answers": [
+        "ps aux --sort=-%mem | head",
+        "top -o %MEM",
+        "ps -eo pid,ppid,cmd,%mem,%cpu --sort=-%mem | head"
+      ]
+    },
+    {
+      "id": "h32",
+      "prompt": {
+        "ru": "Показать, какой процесс слушает порт 80 (lsof или netstat).",
+        "en": "Show which process is listening on port 80 (lsof or netstat)."
+      },
+      "answers": [
+        "lsof -i :80",
+        "netstat -nlp | grep :80",
+        "ss -lptn 'sport = :80'"
+      ]
+    },
+    {
+      "id": "h33",
+      "prompt": {
+        "ru": "Показать дерево процессов (pstree).",
+        "en": "Show the process tree (pstree)."
+      },
+      "answers": [
+        "pstree",
+        "pstree -p",
+        "ps axjf"
+      ]
+    },
+    {
+      "id": "h34",
+      "prompt": {
+        "ru": "Показать время работы системы и среднюю загрузку (uptime).",
+        "en": "Show the system uptime and load average (uptime)."
+      },
+      "answers": [
+        "uptime"
+      ]
+    },
+    {
+      "id": "h35",
+      "prompt": {
+        "ru": "Показать 10 самых больших файлов в /var (du + sort).",
+        "en": "Show the 10 largest files in /var (du + sort)."
+      },
+      "answers": [
+        "du -ah /var | sort -rh | head -n 10"
+      ]
+    },
+    {
+      "id": "h36",
+      "prompt": {
+        "ru": "Показать использование инодов (inodes) на диске.",
+        "en": "Show inode usage on the disks."
+      },
+      "answers": [
+        "df -i",
+        "df -ih"
+      ]
+    },
+    {
+      "id": "h37",
+      "prompt": {
+        "ru": "Рекурсивно изменить владельца папки /var/www на www-data.",
+        "en": "Recursively change the owner of /var/www to www-data."
+      },
+      "answers": [
+        "chown -R www-data:www-data /var/www",
+        "chown -R www-data /var/www"
+      ]
+    },
+    {
+      "id": "h38",
+      "prompt": {
+        "ru": "Рекурсивно установить права 644 на файлы и 755 на папки (обычно требует find).",
+        "en": "Recursively set 644 on files and 755 on directories."
+      },
+      "answers": [
+        "chmod -R u=rwX,go=rX /path",
+        "find . -type d -exec chmod 755 {} + && find . -type f -exec chmod 644 {} +"
+      ]
+    },
+    {
+      "id": "h39",
+      "prompt": {
+        "ru": "Добавить пользователя user в группу docker.",
+        "en": "Add the user 'user' to the 'docker' group."
+      },
+      "answers": [
+        "usermod -aG docker user",
+        "gpasswd -a user docker"
+      ]
+    },
+    {
+      "id": "h40",
+      "prompt": {
+        "ru": "Заблокировать пароль пользователя user (passwd).",
+        "en": "Lock the password of the user 'user' (passwd)."
+      },
+      "answers": [
+        "passwd -l user",
+        "usermod -L user"
+      ]
+    },
+    {
+      "id": "h41",
+      "prompt": {
+        "ru": "Сгенерировать SSH-ключ (rsa, 4096 бит) без вопросов.",
+        "en": "Generate an SSH key (RSA, 4096 bits) without any prompts."
+      },
+      "answers": [
+        "ssh-keygen -t rsa -b 4096 -N '' -f ~/.ssh/id_rsa"
+      ]
+    },
+    {
+      "id": "h42",
+      "prompt": {
+        "ru": "Скопировать свой публичный ключ на удаленный сервер 192.168.1.5.",
+        "en": "Copy your public key to the remote server 192.168.1.5."
+      },
+      "answers": [
+        "ssh-copy-id user@192.168.1.5",
+        "cat ~/.ssh/id_rsa.pub | ssh user@192.168.1.5 'mkdir -p ~/.ssh && cat >> ~/.ssh/authorized_keys'"
+      ]
+    },
+    {
+      "id": "h43",
+      "prompt": {
+        "ru": "Проверить доступность порта 80 на google.com (nc/telnet).",
+        "en": "Check whether port 80 is reachable on google.com (nc/telnet)."
+      },
+      "answers": [
+        "nc -zv google.com 80",
+        "telnet google.com 80"
+      ]
+    },
+    {
+      "id": "h44",
+      "prompt": {
+        "ru": "Скачать файл по URL и сохранить под именем output.file (curl/wget).",
+        "en": "Download a file by URL and save it as output.file (curl/wget)."
+      },
+      "answers": [
+        "curl -o output.file http://site.com/file",
+        "wget -O output.file http://site.com/file",
+        "curl -L -o output.file http://site.com/file"
+      ]
+    },
+    {
+      "id": "h45",
+      "prompt": {
+        "ru": "Показать свой внешний IP (через curl и сервис).",
+        "en": "Show your external IP address (with curl and a web service)."
+      },
+      "answers": [
+        "curl ifconfig.me",
+        "curl icanhazip.com",
+        "dig +short myip.opendns.com @resolver1.opendns.com"
+      ]
+    },
+    {
+      "id": "h46",
+      "prompt": {
+        "ru": "Создать структуру папок project/{src,bin,lib} одной командой.",
+        "en": "Create the directories project/{src,bin,lib} with one command."
+      },
+      "answers": [
+        "mkdir -p project/{src,bin,lib}"
+      ]
+    },
+    {
+      "id": "h47",
+      "prompt": {
+        "ru": "Очистить содержимое файла log.txt, не удаляя его.",
+        "en": "Empty log.txt without deleting it."
+      },
+      "answers": [
+        "> log.txt",
+        "truncate -s 0 log.txt",
+        "echo -n > log.txt",
+        "cat /dev/null > log.txt"
+      ]
+    },
+    {
+      "id": "h48",
+      "prompt": {
+        "ru": "Запустить команду в фоне и отвязать от терминала (nohup).",
+        "en": "Run a command in the background, detached from the terminal (nohup)."
+      },
+      "answers": [
+        "nohup command &",
+        "(command &)"
+      ]
+    },
+    {
+      "id": "h49",
+      "prompt": {
+        "ru": "Повторить последнюю команду из истории (sudo !!).",
+        "en": "Repeat the last command from history with sudo."
+      },
+      "answers": [
+        "sudo !!"
+      ]
+    },
+    {
+      "id": "h50",
+      "prompt": {
+        "ru": "Посчитать сумму чисел в столбце файла numbers.txt (awk).",
+        "en": "Sum the numbers in a column of numbers.txt (awk)."
+      },
+      "answers": [
+        "awk '{s+=$1} END {print s}' numbers.txt"
+      ]
+    },
+    {
+      "id": "h51",
+      "prompt": {
+        "ru": "Объединить содержимое file1.txt и file2.txt в all.txt.",
+        "en": "Merge file1.txt and file2.txt into all.txt."
+      },
+      "answers": [
+        "cat file1.txt file2.txt > all.txt"
+      ]
+    },
+    {
+      "id": "h52",
+      "prompt": {
+        "ru": "Сравнить два файла и показать различия (diff).",
+        "en": "Compare two files and show the differences (diff)."
+      },
+      "answers": [
+        "diff file1.txt file2.txt",
+        "diff -u file1.txt file2.txt"
+      ]
+    },
+    {
+      "id": "h53",
+      "prompt": {
+        "ru": "Следить за логом и искать слово 'ERROR' в реальном времени.",
+        "en": "Follow a log file and look for 'ERROR' in real time."
+      },
+      "answers": [
+        "tail -f access.log | grep 'ERROR'",
+        "tail -F access.log | grep 'ERROR'"
+      ]
+    },
+    {
+      "id": "h54",
+      "prompt": {
+        "ru": "Смонтировать ISO образ disk.iso в /mnt/iso.",
+        "en": "Mount the ISO image disk.iso at /mnt/iso."
+      },
+      "answers": [
+        "mount -o loop disk.iso /mnt/iso",
+        "mount disk.iso /mnt/iso -o loop"
+      ]
+    },
+    {
+      "id": "h55",
+      "prompt": {
+        "ru": "Размонтировать диск /mnt/data (принудительно/лениво, если занят).",
+        "en": "Unmount /mnt/data (lazily, if it is busy)."
+      },
+      "answers": [
+        "umount -l /mnt/data",
+        "umount -f /mnt/data"
+      ]
+    },
+    {
+      "id": "h56",
+      "prompt": {
+        "ru": "Создать символическую ссылку /usr/bin/python -> python3.",
+        "en": "Create a symbolic link /usr/bin/python -> python3."
+      },
+      "answers": [
+        "ln -s /usr/bin/python3 /usr/bin/python",
+        "sudo ln -s /usr/bin/python3 /usr/bin/python"
+      ]
+    },
+    {
+      "id": "h57",
+      "prompt": {
+        "ru": "Найти битые символические ссылки в текущей папке.",
+        "en": "Find broken symbolic links in the current directory."
+      },
+      "answers": [
+        "find . -xtype l",
+        "find . -type l ! -exec test -e {} \\; -print"
+      ]
+    },
+    {
+      "id": "h58",
+      "prompt": {
+        "ru": "Узнать UUID дисковых разделов (blkid).",
+        "en": "Show the UUIDs of the disk partitions (blkid)."
+      },
+      "answers": [
+        "blkid",
+        "lsblk -f"
+      ]
+    }
+  ]
+}
